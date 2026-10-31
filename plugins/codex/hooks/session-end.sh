@@ -1,6 +1,6 @@
 #!/bin/bash
 # Wipecraft Claude Code eklentisi, SessionEnd: oturum bir bağlı worktree'de bittiyse durumunu stderr'e tek satır yazar.
-# Uygulamada "Tidy finished worktrees after Claude Code sessions" açıksa, öğe kilitli de olsa, düşük öncelikli bir
+# Uygulamada "Tidy finished worktrees after agent sessions" açıksa, öğe kilitli de olsa, düşük öncelikli bir
 # arka plan işi kısa bir gecikmeden sonra `clean <kimlik> --apply` çalıştırır; kilidi CLI'nın eylem anı denetimi
 # karara bağlar (betik hiçbir şeyi aşmaz; reddedilirse çıkış 3 sessizce geçilir). Kanca temizliği BEKLEMEZ.
 # Oturumu asla bozmaz: her yol 0 ile biter; errexit kullanılmaz. Ayrıştırıcı (`jq` ya da `python3`) yoksa hiçbir şey çalışmaz.
