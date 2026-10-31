@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "\"${CURSOR_PLUGIN_ROOT}/hooks/cursor-session-start.sh\"",
+        "timeout": 30
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "\"${CURSOR_PLUGIN_ROOT}/hooks/cursor-session-end.sh\"",
+        "timeout": 60
+      }
+    ]
+  }
+}

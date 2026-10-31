@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wipecraft": {
+      "type": "stdio",
+      "command": "wipecraft",
+      "args": ["mcp"]
+    }
+  }
+}

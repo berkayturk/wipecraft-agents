@@ -1,0 +1,17 @@
+---
+name: wipecraft-status
+description: Summarize what can be freed on this Mac with Wipecraft. Use when the user asks how much disk space coding agents, worktrees or caches take, or what Wipecraft would clean. Reads only.
+---
+
+Run `wipecraft scan --json` and summarize the result for the user. Scanning only reads; nothing is changed.
+
+- Start with the total in `reclaimableBytes`, as one line with the size in GB.
+- Then list the three sources with the most reclaimable space, with their sizes.
+- Say how many items are locked and why, using `lockReason`.
+- If `partial` is true, say the totals can be low.
+- Use plain numbers and no adjectives. Do not suggest cleaning anything on your own.
+
+The scan reads folders outside the project, such as `~/Library/Caches`. If running it needs the user's approval, ask
+for it.
+
+If the command is not found, say that the `wipecraft` command-line tool is not on PATH and stop.

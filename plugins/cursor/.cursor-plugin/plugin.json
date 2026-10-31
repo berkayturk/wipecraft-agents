@@ -1,0 +1,14 @@
+{
+  "name": "wipecraft",
+  "version": "1.2.0",
+  "description": "Shows what can be freed on this Mac and tidies finished worktrees. Calls the wipecraft command-line tool; scans only read, and cleaning needs --apply.",
+  "author": {
+    "name": "BlitzCortex",
+    "email": "support@blitzcortex.com",
+    "url": "https://wipecraft.app"
+  },
+  "homepage": "https://wipecraft.app",
+  "repository": "https://github.com/berkayturk/wipecraft-agents",
+  "license": "MIT",
+  "keywords": ["disk", "cleanup", "worktrees", "macos"]
+}

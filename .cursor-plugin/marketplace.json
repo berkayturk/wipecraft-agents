@@ -1,0 +1,17 @@
+{
+  "name": "wipecraft",
+  "owner": {
+    "name": "BlitzCortex",
+    "email": "support@blitzcortex.com"
+  },
+  "metadata": {
+    "description": "Cursor plugin for Wipecraft, the Mac app that frees the space coding agents leave on disk."
+  },
+  "plugins": [
+    {
+      "name": "wipecraft",
+      "source": "plugins/cursor",
+      "description": "Shows what can be freed on this Mac and tidies finished worktrees."
+    }
+  ]
+}

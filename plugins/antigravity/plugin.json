@@ -1,0 +1,16 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "wipecraft",
+  "displayName": "Wipecraft",
+  "version": "1.2.0",
+  "description": "Shows what can be freed on this Mac and tidies finished worktrees. Calls the wipecraft command-line tool; scans only read, and cleaning needs --apply.",
+  "suggestedPrompts": ["How much disk space can Wipecraft free?"],
+  "author": {
+    "name": "BlitzCortex",
+    "url": "https://wipecraft.app"
+  },
+  "homepage": "https://wipecraft.app",
+  "repository": "https://github.com/berkayturk/wipecraft-agents",
+  "license": "MIT",
+  "keywords": ["disk", "cleanup", "worktrees", "macos"]
+}

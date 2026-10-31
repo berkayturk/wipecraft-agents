@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "wipecraft",
-      "source": "./plugins/wipecraft",
+      "source": "./plugins/claude-code",
       "description": "Shows what can be freed on this Mac and tidies finished worktrees."
     }
   ]

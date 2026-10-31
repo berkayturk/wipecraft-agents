@@ -1,0 +1,5 @@
+interface:
+  display_name: "Wipecraft tidy"
+  short_description: "Dry run first, clean only after you say yes"
+policy:
+  allow_implicit_invocation: false

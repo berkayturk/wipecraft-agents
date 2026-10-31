@@ -1,0 +1,20 @@
+{
+  "name": "wipecraft",
+  "interface": {
+    "displayName": "Wipecraft"
+  },
+  "plugins": [
+    {
+      "name": "wipecraft",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
