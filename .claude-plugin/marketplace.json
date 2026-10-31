@@ -1,0 +1,15 @@
+{
+  "name": "wipecraft",
+  "description": "Claude Code plugin for Wipecraft, the Mac app that frees the space coding agents leave on disk.",
+  "owner": {
+    "name": "BlitzCortex",
+    "email": "support@blitzcortex.com"
+  },
+  "plugins": [
+    {
+      "name": "wipecraft",
+      "source": "./plugins/wipecraft",
+      "description": "Shows what can be freed on this Mac and tidies finished worktrees."
+    }
+  ]
+}
